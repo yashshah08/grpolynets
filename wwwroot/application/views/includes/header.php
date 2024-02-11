@@ -61,7 +61,6 @@
               <li <?if ($websitepagename=='contactus' ){?> class="active"
                   <? } ?>>
                   <a href="<? echo site_url('Contactus');?>">Contact Us</a>
-              <li><a href="#"> </a></li>
               </ul>
             </div>
           </div>

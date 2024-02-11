@@ -116,10 +116,10 @@ ul {
   margin-bottom: 0px;
 }
 
-ul li {
+/* ul li {
   font-size: 16px;
   line-height: 20px;
-}
+} */
 
 .form-group {
   position: relative;
@@ -274,7 +274,7 @@ ul li {
     color: #fff;
     text-align: center;
     padding: 0px 0px;
-    font-size: 20px;
+    font-size: 22px;
   }
   .mainHeader header .navbarLink ul li > .dropdown-menu .subdropdown {
     left: 0 !important;
@@ -1726,7 +1726,7 @@ iframe{
     }
     .info-box ul li h2 {
         font-size: 25px;
-        padding-bottom: 10px 
+        padding-bottom: 10px;
     }
     .info-box ul li h5 {
         font-size: 16px;
@@ -1833,6 +1833,9 @@ iframe{
         /* width: 10px; */
         height: 25px;
     }
+    .mainHeader header .navbarLink ul li {
+        padding: 10px 12px;
+    }
     .banner {
         padding: 30px 0px;
     }
@@ -1845,19 +1848,22 @@ iframe{
     .our-products-image ul li {
         padding-left: 0px;
     }
+    .info-box ul {
+        padding: 30px 0px;
+    }    
 
     .info-box ul li{
         flex: 0 0 50%;
         max-width: 50%;
         margin:0px; 
-        padding: 35px
+        padding: 20px 35px;
+    }
+    .section_title h2 {
+        font-size: 30px;
     }
     
     .info-box ul li i {
         font-size: 60px;
-    }
-    .info-box ul li h2 {
-        font-size: 35px;
     }
     .info-box ul li h5 {
         font-size: 20px;
@@ -1896,6 +1902,7 @@ iframe{
     }   
     .info-box ul li h2 {
         font-size: 30px;
+        padding-bottom: 5px;
     }
     .quote1 p {
         font-size: 17px;
@@ -2041,12 +2048,15 @@ iframe{
     .crossLine .line {
         width: 22px;
     }
+    .mainHeader header .navbarLink ul li > .dropdown-menu li a {
+        font-size: 18px;
+    }
     .mainHeader header .navbarLink ul li a {
-        font-size: 25px;
+        font-size: 22px;
     }
-    .mainHeader header .navbarLink ul li {
-        padding: 15px 12px;
-    }
+    /* .mainHeader header .navbarLink ul li {
+        padding: 10px 12px;
+    } */
     .banner {
         padding: 15px 0px;
     }
@@ -2075,6 +2085,10 @@ iframe{
         height: 15px;
     }
 
+    .section_title h2 {
+        font-size: 25px;
+    }
+
     .about-GR h2 {
         font-size: 25px;
     }
@@ -2101,7 +2115,7 @@ iframe{
         font-size: 14px;
     }
     .about-GR .about-text {
-        padding-bottom: 0px;
+        padding-bottom: 10px;
     }
 
     .our-products {
@@ -2197,9 +2211,6 @@ iframe{
         padding-top: 0px;
         padding-bottom: 10px;
     }
-    .info-box ul {
-        padding: 15px 0px;
-    }
     .info-box ul li i {
         font-size: 45px;
     }
@@ -2210,14 +2221,14 @@ iframe{
         font-size: 12px;
     } */
     .info-box ul li {
-        padding: 20px;
+        padding: 17px;
     }
     
     .our-products-text p {
         font-size: 30px;
     }
     .our-products {
-        padding: 25px 0px ;
+        padding: 30px 0px ;
     }
     .requirement b {
         font-size: 14px;
