@@ -195,7 +195,7 @@ ul {
   }
   .mainHeader header .navbarLink ul li  {
 
-    padding: 20px 12px;
+    padding: 15px 12px;
   }
 }
 
@@ -1534,6 +1534,7 @@ iframe{
         flex:0 0 100%;
         max-width: 100%;
         padding-top: 30px;
+        padding-bottom: 20px;
     }
     .quick-links ul li {
         padding-bottom: 10px;
@@ -1547,8 +1548,8 @@ iframe{
         padding: 10px 0px;
     }
 
-    .contact-us h2{
-        font-size: 48px;
+    .contact-us h2,.quick-links h2{
+        font-size: 33px;
     }
 
     .contact-us-text p{
@@ -1587,7 +1588,7 @@ iframe{
     }
     
     .our-products-image ul li {
-        padding-left: 15px;
+        padding:7px;
     }
     .product ul li {
         width: 47%;
@@ -1726,6 +1727,9 @@ iframe{
     /* .partition {
         margin-top: 20px;
     } */
+    .section_title h2 {
+        margin-bottom: 25px;
+    }
 
     .info-box ul li i {
         font-size: 60px;
@@ -2146,7 +2150,7 @@ iframe{
         margin-top: 10px;
     }
     .our-products-text .section_title h2 {
-        margin-bottom: 7px;
+        margin-bottom: 13px;
     }
     .specific-req {
         margin-top: 0px;
@@ -2156,7 +2160,7 @@ iframe{
     }
     .specific-req h2 {
         font-size: 20px;
-        line-height: 1.4;
+        line-height: 1.3;
         font-weight: bold;
         margin-bottom: 0px;
         padding: 15px 0px;
