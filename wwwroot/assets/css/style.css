@@ -614,7 +614,7 @@ position: absolute; content: ""; height: 2px; background: #0088cc; width: 14%; b
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 2px;
-    line-height: 19.5px;
+    line-height: 1.4;
     font-family: 'Open Sans', 'Titillium Web';
 }
 
@@ -1664,7 +1664,7 @@ iframe{
     }
     .about-GR .about-text{
         max-width: 100%; 
-        padding-bottom: 30px;     
+        padding-bottom: 35px;     
     }
     .about-text p {padding-top: 0px;}
     .about-GR p {
@@ -1856,7 +1856,7 @@ iframe{
         flex: 0 0 50%;
         max-width: 50%;
         margin:0px; 
-        padding: 20px 35px;
+        padding: 15px 0px;
     }
     .section_title h2 {
         font-size: 30px;
@@ -2221,7 +2221,7 @@ iframe{
         font-size: 12px;
     } */
     .info-box ul li {
-        padding: 17px;
+        padding: 17px 0px;
     }
     
     .our-products-text p {
