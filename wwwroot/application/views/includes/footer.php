@@ -1,7 +1,10 @@
-<div class="specific-req">
+
+  <div class="specific-req">
+  <div class="container">
     <div class="requirement">
       <h2>Feel Free To Get In Touch For Specific Requirement.</h2>
     </div>
+  </div>
 </div>
 
 <div class="footer">
