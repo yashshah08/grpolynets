@@ -174,7 +174,7 @@ ul {
 
 .mainHeader header .navbarLink ul li a {
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   padding: 10px 12px 10px 12px;
   display: inline-block;
 }
@@ -2294,8 +2294,11 @@ iframe{
         font-size: 14px;
     }
     .quote1 p {
-        line-height: 20px;
+        line-height: 1.4;
         
+    }
+    .product ul {
+        padding: 0px 15px;
     }
     .products_text {
         font-size: 15px;
