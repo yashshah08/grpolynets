@@ -16,7 +16,6 @@
                    <p> As our sales steadily rose, we enhanced our production capacity from 36 MTPA to 106 MTPA & entered 
                        the FMCG sector by manufacturing products like Loofahs, Scrubbers, etc., the sales of which far exceeded
                        our expectations.</p>
-                </p>
                
             </div>
             <div class="about-img">

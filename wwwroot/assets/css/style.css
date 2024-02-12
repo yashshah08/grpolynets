@@ -859,7 +859,7 @@ position: absolute; content: ""; height: 2px; background: #0088cc; width: 14%; b
     padding-bottom: 40px;
 margin: 10px;
     flex: 0 0 30%;
-    max-width: 30%;
+    max-width: 33%;
 }
 
 .product ul li .readbtn { display: flex; justify-content: center;
@@ -1745,7 +1745,7 @@ iframe{
         flex-wrap: wrap;
     }
     .info .about-text{
-        padding-bottom: 10px;
+        padding-top: 20px;
         max-width: 100%;
         flex: 100%;
     }
@@ -1754,8 +1754,11 @@ iframe{
         width: 25%;
     }
     .abt-us-tab .tabs .nav-tabs .nav-item .nav-link {
-        padding: 20px 20px;
+        padding: 15px 20px;
         text-align: center;
+    }
+    .product {
+        padding: 40px 0px;
     }
     .product ul li {
         width: 47%;
@@ -1850,6 +1853,9 @@ iframe{
     } */
  .contact-us {
         width: 50%;
+    }
+    .info .about-text{
+        padding-top: 0px;
     }
     .our-products-image ul li {
         padding-left: 0px;
@@ -2120,6 +2126,9 @@ iframe{
     }
     .about-GR .about-text {
         padding-bottom: 10px;
+    }
+    .our_mission_text{
+        padding:0px;
     }
 
     .our-products {
