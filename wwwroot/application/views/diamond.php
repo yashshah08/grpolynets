@@ -39,7 +39,7 @@
           <img src="<? echo site_url('assets/images/bud_caps.png');?>" alt="Bud Cap">
         </div>
         <p><b>Bud Cap</b></p>
-        <div class="readbtn">
+        <div class="readbtn btnpadding">
           <a href="<? echo site_url('diamond/bud_caps');?> "><b>Read More</b></a>
         </div>
 

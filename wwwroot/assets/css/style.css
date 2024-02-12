@@ -848,6 +848,7 @@ position: absolute; content: ""; height: 2px; background: #0088cc; width: 14%; b
 
 .product ul li p {
     font-size:23px;
+    line-height: 1.4;
     margin: 15px;
     font-weight: 2500;
     color:#55595c;   margin-bottom: 20px;
@@ -1136,10 +1137,12 @@ iframe{
 }
 .industrial_img {
     width:33%;
+    padding-top: 20px;
     
 }
 .industrial_img img {
     object-fit: contain;
+    width: 100%;
     
 }
 .advantage{
@@ -1503,6 +1506,9 @@ iframe{
     /* .our-products-image ul li img {
         padding-left: 6px;
     } */
+    .btnpadding{
+        padding-top: 30px;
+    }
 
     #navbarSupportedContent {
         flex: 0 0 41%;
@@ -1776,7 +1782,7 @@ iframe{
     .slider-frame img {
         height: 200px;
     }
-    .application {
+    .application,.advantage {
         width: 50%;
     }
     .industrial_img {
@@ -1785,9 +1791,9 @@ iframe{
     .industrial_img img {
         display: none;
     }
-    .advantage {
+    /* .advantage {
         width: 50%;
-    }
+    } */
     .gas_cylinder_text {
         width: 100%;
     }
@@ -1872,6 +1878,9 @@ iframe{
         width: 50%;
         padding: 7px;
     }
+    .btnpadding {
+        padding-top: 0px;
+    }
     .specific-req h2 {
         font-size: 36px;
         line-height: 46px;
@@ -1948,7 +1957,7 @@ iframe{
         --mdb-nav-tabs-link-padding-x: 18px !important;
         }
     
-    .application {
+    .application,.advantage {
         width: 50%;
         font-size: 15px;
     }
@@ -1957,11 +1966,6 @@ iframe{
     }
     .industrial_img img{
         display: none;
-    }
-    .advantage {
-        width: 50%;
-        font-size: 15px;
-        
     }
     .gas_cylinder_text {
         font-size: 15px;
@@ -1999,7 +2003,7 @@ iframe{
         border-bottom: 1px gray solid;
     }
     .tabs .nav-tabs .nav-link.active, .tabs .nav-tabs .nav-link.active:hover {
-        border: 1px solid #3db1ff;
+        border-bottom: 1px solid #3db1ff;
     }
     .our_mission_img img {
         width: 40%;
@@ -2316,10 +2320,13 @@ iframe{
     .industrial_product {
         flex-wrap: wrap;
     }
-    .application {
+    .application,.advantage {
         width: 100%;
         font-size: 14px;
         padding: 10px 10px 0px 10px;
+        padding-bottom: 7px;
+    }
+    .application {
         padding-bottom: 7px;
     }
      .application ul li {
@@ -2328,13 +2335,13 @@ iframe{
     .industrial_img{
         width: 0%;
     }
-    .advantage {
+    /* .advantage {
         width: 100%;
         font-size: 14px;
-        /* line-height: 15px; */
+        line-height: 15px;
         padding: 10px 10px 0px 10px;
 
-    }
+    } */
     .advantage ul li {
         padding-bottom: 7px;
 
