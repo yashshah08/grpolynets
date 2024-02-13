@@ -575,7 +575,7 @@ position: absolute; content: ""; height: 2px; background: #0088cc; width: 14%; b
    text-decoration: none;
 } */
 
-.informationSection { background: rgb(0, 0, 0, 0.5 );}
+.informationSection { background: rgba(213, 3, 3, 0.5);}
 
 .info-box ul{
     display: flex;
