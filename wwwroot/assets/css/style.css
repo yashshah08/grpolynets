@@ -1022,17 +1022,13 @@ iframe{
     border-color: red !important;
 }
 
-
-
-
-
 .quote1{
     margin-top: 50px;
 }
 
 .quote1 p{
     border-left: 5px solid rgba(0,0,0,.05);;
-    padding:20px ;
+    padding:15px ;
     font-size: 18px;
     font-style: italic;
     color:#7a7a7a;
@@ -1095,7 +1091,7 @@ iframe{
 
 
 .information{
-    padding:  20px;
+    padding:  15px;
     line-height: 30px;
     color:#7a7a7a;
     font-size: 16px;
@@ -1596,7 +1592,7 @@ iframe{
 
 
     .container {
-        padding: 10px 0px;
+        padding: 0px 0px;
     }
     .quote{
         padding-top: 20px;
@@ -1714,9 +1710,16 @@ iframe{
     .address.contact-class {
         padding-bottom: 8px;
     }
+
     .requirement {
-        padding: 40px 0px;
+        padding: 30px 0px;
     }
+
+    .specific-req h2 {
+        font-size: 33px;
+        line-height: 1.4
+    }
+    
     /* .contact-class {
         padding-bottom: 20px;
     } */
@@ -1823,12 +1826,12 @@ iframe{
         padding-bottom: 10px;
         display: flex;
     }
-
-    .contactSection .contacts{ padding-right: 15px;}
+/* 
+    .contactSection .contacts{ padding-right: 15px;} */
     .details {
         margin-top: 40px;
     }
-    .contactSection .input-group input{ height: 50px; margin-bottom: 15px;}
+    .contactSection .input-group input{ height: 46px; margin-bottom: 15px;}
     .contactSection .message {
         height: 120px;
         margin-bottom: 15px;
@@ -1895,12 +1898,10 @@ iframe{
         padding-top: 0px;
     }
     .specific-req h2 {
-        font-size: 36px;
-        line-height: 46px;
+        font-size: 25px;
+        line-height: 1.4;
     }
-    .requirement {
-        padding: 30px 0px;
-    }
+
     .requirement b {
         font-size: 21px;
     }
@@ -2007,7 +2008,7 @@ iframe{
         height:300px;
       }
     .form-control {
-        font-size: 14px;
+        font-size: 16px;
     }
     .coming_soon img {
         padding: 20px;
@@ -2281,7 +2282,7 @@ iframe{
     .quick-links ul li a{
         font-size: 16px;
         line-height: 1.4;
-        padding: 5px 0px;
+        /* padding: 5px 0px; */
     }
     .contact-us-text p {
         font-size: 16px;
@@ -2429,7 +2430,8 @@ iframe{
         max-width: 100%;
         margin: 10px 0px;
     }
-        
+    .contactSection .input-group input {
+        width: 100%;}
 
 
 }
